@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"
+    href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!--Left side-->
+        <div class="left-side">
+            <img src="profile-picture.jpg"
+            alt="profile-photo"
+            class="profile-photo">
+            <div class="contact-section">
+                <h2>CONTACT</h2>
+                <hr>
+                <p class="icon">📞 +123-456-7890</p>
+                <p class="icon">✉️ hello@reallygreatsite.com</p>
+                <p class="icon">📍123 Anywhere St., Any City</p>
+                <p class="icon">🌐 www.reallygreatsite.com</p>
+            </div>
+            <div class="contact-section">
+                <h2>EDUCATION</h2>
+                <hr>
+                <div class="wrapper">
+                    <div id="survey_options">
+                        <input type="text" name="survey_options[]" class="survey_option" size="50" placeholder="Another Field">
+                    </div>
+                    <div class="controls">
+                        <a href="#" id="add_more_fields"><i class="fa fa-plus"></i>Add More</a>
+                        <a href="#" id="remove_fields"><i class="fa fa-minus"></i>Remove Field</a>
+                    </div>
+                    <script src="education.js"></script>
+                </div>
+            </div>
+            <div class="contact-section">
+                <h2>SKILLS</h2>
+                <hr>
+                <div class="wrapper">
+                    <div id="skills_options">
+                        <input type="text" name="skills_options[]" class="skills_option" size="50" placeholder="Another Field">
+                    </div>
+                    <div class="controls">
+                        <a href="#" id="addmore_fields"><i class="fa fa-plus"></i>Add More</a>
+                        <a href="#" id="removefields"><i class="fa fa-minus"></i>Remove Field</a>
+                    </div>
+                    <script src="script.js"></script>
+                </div>
+            </div>
+            <div class="contact-section">
+                <h2>LANGUAGES</h2>
+                <hr>
+                <p><li>English (Fluent)</li></p>
+                <p><li>French (Fluent)</li></p>
+                <p><li>German (Basics)</li></p>
+                <p><li>Spanish (Intermediate)</li></p>
+            </div>
+        </div>
+        <!--Right side-->
+        <div class="right-side">
+            <div class="ntitle">
+                <div class="fntitle"><span class="FN">OMAR</span> <span class="SN">AHMADOV</span></div>
+                <div class="jtitle">NETWORK SECURITY ENGINEER</div>
+            </div>
+            <div class="section">
+                <h2 class="section-title">PROFILE</h2>
+                <button class="dropdown-button" onclick="toggleDropdown()">Show/Hide Profile</button>
+                <hr class="line">
+                <div id="profileContent" class="dropdown_content">
+                <script src="profile.js"></script>
+                </div>
+            </div>
+            <div class="section">
+                    <h2 class="section-title">WORK EXPERIENCE</h2>
+                    <hr class="line">
+                <div class="section-we">
+                    <div class="wrapper-1">
+                    <div id="education_options">
+                        <input type="dum" name="education_options[]" class="education_option" size="50" placeholder="Another Field">
+                    </div>
+                    <div class="controls">
+                        <a href="#" id="add_morefields"><i class="fa fa-plus"></i>Add More</a>
+                        <a href="#" id="remove__fields"><i class="fa fa-minus"></i>Remove Field</a>
+                    </div>
+                    <script src="work.js"></script>
+                    </div>
+                </div>
+            </div>
+            <div class="section">
+                <h2 class="section-title">REFERENCE</h2>
+                <hr>
+                <div id="referenceContent" class="dropdown_content">
+                <h3 class="section-name">Estelle Darcy</h3>
+                <h3 class="section-jtitle">Wardiere Inc. / CTO</h3>
+                <p class="section-text">Phone: 123-456-7890</p>
+                <p class="section-text">Email: hello@reallygreatsite.com</p>
+                <h3 class="section-name">Harper Richard</h3>
+                <h3 class="section-jtitle">Wardiere Inc. / CEO</h3>
+                <p class="section-text">Phone: 123-456-7890</p>
+                <p class="section-text">Email: hello@reallygreatsite.com</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
