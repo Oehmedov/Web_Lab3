@@ -1,0 +1,353 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.container {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+}
+
+
+
+/*left side*/
+.left-side {
+    background-color:#0b2c45;
+    color: white;
+    width: 20%;
+    padding: 30px;
+}
+
+.profile-photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+
+
+/*right side*/
+.right-side {
+    background-color: white;
+    width: 50%;
+    padding: 40px;
+    color: #444;
+}
+
+.ntitle {
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.fntitle {
+    text-align: left;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.jtitle {
+    font-size: 16px;
+    font-weight: 500;
+    color: #555;
+    margin: 0;
+    position: relative;
+    padding-bottom: 5px;
+}
+
+.jtitle::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50px;
+    height: 3px;
+    background-color: #1f3b60;
+}
+.FN {
+    font-weight: 800;
+}
+
+.SN {
+    color: #0b2c45;
+    font-weight: 400;
+}
+
+.section {
+    margin-bottom: 30px;
+    margin-top: 100px;
+    text-align: left;
+    margin-right: 50px;
+}
+
+.section-title {
+    font-size: 27px;
+    font-weight: bold;
+    color: #0b2c45;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+.section-name {
+    color: #333;
+    font-weight: bold;
+}
+
+.line {
+    background-color: #0b2c45;
+    height: 0.5px;
+}
+
+.section-text {
+    font-size: 14px;
+    color: #333;
+    line-height: 1.6;
+}
+
+.section-jtitle {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+    font-weight: 400;
+}
+
+.section-we {
+    position: relative;
+    padding-left: 30px;
+    border-left: 2px solid #0b2c45;
+}
+
+.section-date {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+    font-weight: 400;
+}
+
+.contact-section {
+    text-align: left;
+}
+
+.contact-section h2 {
+    letter-spacing: 3px;
+}
+
+.education-gap {
+    margin-top: 50px;
+}
+
+.dropdown-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.dropdown-button:hover {
+    background-color: #45a049;
+}
+
+.experience-item {
+    margin-top: 10px;
+}
+
+.controls {
+    width: 294px;
+    margin: 15px auto;
+}
+
+#remove_fields {
+    float: right;
+}
+
+.controlls a i.fa-minus {
+    margin-right: 5px;
+}
+
+.wrapper {
+    width: 300px;
+    margin: 40px auto;
+    padding: 10px;
+    border-radius: 5px;
+    background: white;
+    box-shadow: 0px 10px 40px 0px rgba(47, 47, 47,.1);
+}
+
+input[type="text"]{
+    padding: 10px;
+    margin: 10px auto;
+    display: block;
+    border-radius: 5px;
+    border: 1px solid rgb(266 266 266);
+    background: none;
+    width: 274px;
+    color: black;
+}
+
+input[type="text"]:focus {
+    outline: none;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+#removefields {
+    float: right;
+}
+
+.wrapper-1 {
+    width: 700px;
+    margin: 40px auto;
+    padding: 10px;
+    border-radius: 5px;
+    background: white;
+    box-shadow: 0px 10px 40px 0px rgba(47, 47, 47,.1);
+}
+
+#remove__fields {
+    float: right;
+}
+
+input[type="dum"]{
+    padding: 10px;
+    margin: 10px auto;
+    display: block;
+    border-radius: 5px;
+    border: 1px solid rgb(266 266 266);
+    background: none;
+    width: 650px;
+    color: black;
+}
+
+
+
+
+
+/* Style for the section container */
+.section {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.section-title {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.line {
+    border: 0;
+    height: 1px;
+    background-color: #ddd;
+    margin: 15px 0;
+}
+
+.dropdown_content {
+    padding: 15px 0;
+}
+
+.section-text {
+    margin-bottom: 10px;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Button styles */
+.dropdown-button, 
+.edit-button, 
+.add-button {
+    padding: 8px 15px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Specific button colors */
+.dropdown-button {
+    background-color: #4a90e2;
+    color: white;
+}
+
+.dropdown-button:hover {
+    background-color: #357abd;
+}
+
+.edit-button {
+    background-color: #f39c12;
+    color: white;
+}
+
+.edit-button:hover {
+    background-color: #d68910;
+}
+
+.add-button {
+    background-color: #2ecc71;
+    color: white;
+}
+
+.add-button:hover {
+    background-color: #27ae60;
+}
+
+/* Edit textarea style */
+.edit-textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    min-height: 80px;
+    font-family: inherit;
+    resize: vertical;
+}
+
+/* Save/Delete/Add action buttons */
+.edit-textarea + button, 
+#new_content + button {
+    padding: 6px 12px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 3px;
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.edit-textarea + button:hover {
+    background-color: #2980b9;
+}
+
+button[onclick^="deleteParagraph"] {
+    background-color: #e74c3c;
+}
+
+button[onclick^="deleteParagraph"]:hover {
+    background-color: #c0392b;
+}
+
+button[onclick="saveNewContent()"] {
+    background-color: #2ecc71;
+}
+
+button[onclick="saveNewContent()"]:hover {
+    background-color: #27ae60;
+}
